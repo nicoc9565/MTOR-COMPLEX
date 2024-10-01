@@ -1,0 +1,28 @@
+/* Reportes.css */
+.reportes {
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reporte-section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.reporte-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.reporte-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reporte-section li {
+    padding: 5px 0;
+    font-size: 1.1rem;
+}

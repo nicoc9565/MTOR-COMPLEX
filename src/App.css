@@ -1,0 +1,23 @@
+/* App.css */
+html,
+body {
+  margin: 0;
+  height: 100%;
+  /* Asegura que el body ocupe toda la altura */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* Asegura que el contenedor principal ocupe al menos toda la altura de la ventana */
+}
+
+.main-content {
+  flex: 1;
+  /* Permite que el contenido principal ocupe el espacio restante */
+  padding: 20px;
+  /* Espaciado alrededor del contenido */
+}
+
+/* Otras reglas CSS que tengas */

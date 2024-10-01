@@ -1,0 +1,96 @@
+/* Mismo CSS que en la versión anterior */
+.preinscription-form {
+    background-color: #f9fafb;
+    border: 1px solid #e1e4e8;
+    border-radius: 12px;
+    padding: 40px;
+    max-width: 650px;
+    margin: 40px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.preinscription-form h2 {
+    font-size: 2rem;
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.preinscription-form label {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    display: block;
+    font-weight: 600;
+    color: #555;
+}
+
+.preinscription-form input[type="text"],
+.preinscription-form input[type="number"],
+.preinscription-form textarea,
+.preinscription-form select,
+.preinscription-form input[type="time"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 2px solid #dfe1e5;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+    font-family: inherit;
+}
+
+.preinscription-form input:focus,
+.preinscription-form textarea:focus,
+.preinscription-form select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.preinscription-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.preinscription-form .submit-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.preinscription-form .submit-btn:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .preinscription-form {
+        padding: 20px;
+    }
+
+    .preinscription-form h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .preinscription-form h2 {
+        font-size: 1.3rem;
+    }
+
+    .preinscription-form input,
+    .preinscription-form textarea,
+    .preinscription-form select {
+        font-size: 0.9rem;
+    }
+}
